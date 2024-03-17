@@ -39,3 +39,15 @@ jobs:
             ${{ env.IMAGE_TAG }}:${{ github.sha }}
             ${{ env.IMAGE_TAG }}:latest
           push: true
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Update image
+        run: |
+          echo "$SSH_PRIVATE_KEY" > ssh_private_key
+          chmod 600 ssh_private_key
+          ssh -o StrictHostKeyChecking=no -i ./ssh_private_key "$SSH_USER@$SSH_HOST" systemctl restart blog.service
