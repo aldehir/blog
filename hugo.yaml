@@ -23,6 +23,11 @@ params:
   keywords: homepage, blog, alde, coding, software, engineering
   images: [""]
 
+  logo:
+    logoMark: "#"
+    logoText: "alde"
+    logoCursorDisabled: true
+
 taxonomies:
   category: categories
   tag: tags
