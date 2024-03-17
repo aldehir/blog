@@ -28,6 +28,8 @@ params:
     logoText: "alde"
     logoCursorDisabled: true
 
+  enableThemeToggle: true
+
 taxonomies:
   category: categories
   tag: tags
