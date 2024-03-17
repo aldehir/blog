@@ -44,7 +44,10 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     needs: build
-
+    env:
+      SSH_HOST: ${{ github.secrets.SSH_HOST }}
+      SSH_USER: ${{ github.secrets.SSH_USER }}
+      SSH_PRIVATE_KEY: ${{ github.secrets.SSH_PRIVATE_KEY }}
     steps:
       - name: Update image
         run: |
