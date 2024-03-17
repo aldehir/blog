@@ -34,6 +34,12 @@ taxonomies:
   category: categories
   tag: tags
 
+permalinks:
+  page:
+    posts: /blog/:slug
+  section:
+    posts: /blog/
+
 menus:
   main:
     - identifier: "blog"
