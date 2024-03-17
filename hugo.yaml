@@ -1,0 +1,34 @@
+---
+baseURL: "https://example.org/"
+languageCode: en-us
+title: Alde's Blog
+theme: hello-friend-ng
+paginate: 10
+
+params:
+  dateform: Jan 2, 2006
+  dateformShort: Jan 2
+  dateformNum: 2006-01-02
+  dateformNumTime: 2006-01-02 15:04
+
+  homeSubtitle: Sometimes I think I have something important to say
+
+  disableReadOtherPosts: false
+
+  enableSharingButtons: false
+
+  enableGlobalLanguageMenu: false
+
+  description: Alde's blog
+  keywords: homepage, blog, alde, coding, software, engineering
+  images: [""]
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menus:
+  main:
+    - identifier: "blog"
+      name: "Blog"
+      url: "/"
