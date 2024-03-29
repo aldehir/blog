@@ -41,7 +41,7 @@ Hold Backward,
 Double Tap Forward
 ```
 
-Does not lead to a forward dodge. Why? Let's dig into that.
+Does not lead to a backward dodge. Why? Let's dig into that.
 
 
 ## Axis
