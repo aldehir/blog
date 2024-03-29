@@ -7,32 +7,12 @@
             <g transform="matrix(0.990099,0,0,1,550,0)">
                 <rect x="0" y="0" width="505" height="140" style="fill:rgb(39,40,34);"/>
             </g>
-            <g transform="matrix(1,0,0,1,550,-80)">
-                <path d="M20,200L100,200" style="fill:none;stroke:rgb(188,188,188);stroke-width:3px;"/>
-            </g>
-            <g transform="matrix(1,0,0,1,770,-80)">
-                <path d="M20,200L100,200" style="fill:none;stroke:rgb(188,188,188);stroke-width:3px;"/>
-            </g>
-            <g transform="matrix(0.25,0,0,1,1005,-80)">
-                <path d="M20,200L100,200" style="fill:none;stroke:rgb(188,188,188);stroke-width:4.12px;"/>
-            </g>
-            <g transform="matrix(1,0,0,1,550,-80)">
+            <path d="M570,120L650,120L650,20L790,20L790,120L870,120L870,20L1010,20L1010,120L1030,120" style="fill:none;stroke:rgb(188,188,188);stroke-width:3px;"/>
+            <g transform="matrix(1,0,0,1,410,-80)">
                 <path d="M240,100L240,200" style="fill:none;stroke:rgb(255,0,175);stroke-width:3px;"/>
             </g>
-            <g transform="matrix(1,0,0,1,770,-80)">
+            <g transform="matrix(1,0,0,1,630,-80)">
                 <path d="M240,100L240,200" style="fill:none;stroke:rgb(255,0,175);stroke-width:3px;"/>
-            </g>
-            <g transform="matrix(1,0,0,1,550,-80)">
-                <path d="M100,200L100,100" style="fill:none;stroke:rgb(188,188,188);stroke-width:3px;"/>
-            </g>
-            <g transform="matrix(1,0,0,1,770,-80)">
-                <path d="M100,200L100,100" style="fill:none;stroke:rgb(188,188,188);stroke-width:3px;"/>
-            </g>
-            <g transform="matrix(1,0,0,1,550,-80)">
-                <path d="M100,100L240,100" style="fill:none;stroke:rgb(188,188,188);stroke-width:3px;"/>
-            </g>
-            <g transform="matrix(1,0,0,1,770,-80)">
-                <path d="M100,100L240,100" style="fill:none;stroke:rgb(188,188,188);stroke-width:3px;"/>
             </g>
         </g>
     </g>

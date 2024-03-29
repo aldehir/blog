@@ -110,8 +110,8 @@ this is to consider a digital signal graph,
 
 ![Edge/Level Diagram](edge-level-diagram.svg)
 
-The dodge detection code looks for two edge events that lead to a key
-release. This is how it infers a "double tap".
+The dodge detection code looks for two edge events that lead to a level
+event. This is how it infers a "double tap".
 
 ![Edge events for dodge](edges-for-dodge.svg)
 
