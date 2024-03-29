@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-1650,0)">
+        <rect id="Artboard4" x="1650" y="0" width="500" height="140" style="fill:none;"/>
+        <g id="Artboard41" serif:id="Artboard4">
+            <g transform="matrix(0.990099,0,0,1,1650,0)">
+                <rect x="0" y="0" width="505" height="140" style="fill:rgb(39,40,34);"/>
+            </g>
+            <path d="M1670,20L1910,20L1910,120L1970,120L1970,20L2010,20L2010,120L2070,120L2070,20L2130,20" style="fill:none;stroke:rgb(188,188,188);stroke-width:3px;"/>
+            <g transform="matrix(1,0,0,1,-13.9716,36.8428)">
+                <g transform="matrix(14,0,0,14,1698.28,87.9863)">
+                </g>
+                <text x="1670.26px" y="87.986px" style="font-family:'MicrosoftSansSerif', 'Microsoft Sans Serif', sans-serif;font-size:14px;fill:white;">-300</text>
+            </g>
+            <g transform="matrix(1,0,0,1,535.945,-60.7025)">
+                <g transform="matrix(14,0,0,14,1127.95,85.7132)">
+                </g>
+                <text x="1120.16px" y="85.713px" style="font-family:'MicrosoftSansSerif', 'Microsoft Sans Serif', sans-serif;font-size:14px;fill:white;">0</text>
+            </g>
+        </g>
+    </g>
+</svg>
