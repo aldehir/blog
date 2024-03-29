@@ -192,7 +192,7 @@ in a case where `Axis` is **really** close to `0.0` but not exactly `0.0`.
 Perhaps this is why the bug was never noticed at development. With
 `DeltaSeconds` having millisecond resolution, pressing both directional keys
 yields `-0.0001 < Axis < 0.0`[^1]. So when you press and hold back, then double
-tab forward, the dodge detection doesn't detect a change in direction because
+tap forward, the dodge detection doesn't detect a change in direction because
 the Axis value is always negative!
 
 
