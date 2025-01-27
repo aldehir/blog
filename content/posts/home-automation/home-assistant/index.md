@@ -263,9 +263,9 @@ Assistant's built in `python_scripts` integration.
 An aside: in my research I encountered [this reddit post][14] where the top
 comment states that automations in YAML are declarative and not imperative. I
 take issue with this classification, because `sequence`, `repeat`, and `if` are
-constructs of imperative languages. There are valid reasons for choosing YAML
-automations. I would argue the low barrier of entry is why it is a first-class
-citizen. However, it is misleading to call it declarative.
+constructs of imperative languages. There are valid reasons to choose YAML, but
+to call it declarative is misleading. I would argue the low barrier to entry is
+why it is a first-class citizen.
 
 [14]: https://www.reddit.com/r/homeassistant/comments/12oqayq/stupid_question_why_use_yaml_and_not_an_actual/
 
