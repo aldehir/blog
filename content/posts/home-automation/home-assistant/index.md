@@ -522,7 +522,7 @@ Here is an implementation in YAML that works quite well:
           - variables:
               state_context_id: >-
                 {{ (states
-                    | selectattr( 'entity_id', 'eq', entity_id)
+                    | selectattr('entity_id', 'eq', entity_id)
                     | first).context.id }}
 
           - if:
@@ -534,7 +534,7 @@ Here is an implementation in YAML that works quite well:
                 data:
                   message: "{{ context.id }} != {{ state_context_id }}"
               - stop: >-
-                  Entity modified outside of script, terminating"
+                  Entity modified outside of script, terminating
 ```
 
 The entity's state context is modified to the context of the last call that
