@@ -261,11 +261,11 @@ actually quite nice. So I set out to find an alternative, starting with Home
 Assistant's built in `python_scripts` integration.
 
 An aside: in my research I encountered [this reddit post][14] where the top
-comment states that automations in YAML are declaration and not imperative. I
-take issue with this classification, because `sequence`, `repeat`, `if` are
-means of control flow and constructs of imperative languages. Unless an
-automation is a single action with a desired state (e.g. `light.turn_on`), the
-automation is not declarative.
+comment states that automations in YAML are declarative and not imperative. I
+take issue with this classification, because `sequence`, `repeat`, and `if` are
+constructs of imperative languages. There are valid reasons for choosing YAML
+automations. I would argue the low barrier of entry is why it is a first-class
+citizen. However, it is misleading to call it declarative.
 
 [14]: https://www.reddit.com/r/homeassistant/comments/12oqayq/stupid_question_why_use_yaml_and_not_an_actual/
 
