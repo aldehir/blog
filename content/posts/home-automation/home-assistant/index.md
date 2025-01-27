@@ -411,7 +411,7 @@ you back. I don't hate it, but I also don't love it.
 default, but is easy to install yourself.
 
 Like HA's Python Scripts, pyscript exposes your scripts as actions within Home
-Assistant. You define you services using decorators, and you can even provide a
+Assistant. You define services with decorators, and you can even provide a
 YAML specification in your function's docstring. Pretty neat! Let's port that
 sucker over:
 
