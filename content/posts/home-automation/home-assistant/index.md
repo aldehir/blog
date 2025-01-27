@@ -136,9 +136,9 @@ Not me, though. I wanted my lights to gradually fade in the morning over
 The Hue lights support a `transition` field, but I found it wasn't sufficient to
 solve my problem for a couple of reasons:
 
-1. The transitions max out at 5 minutes.
+1. Transitions max out at 5 minutes.
 
-2. HA will report the final transition state on the UI when the lights mid
+2. HA will report the final transition state on the UI when the lights are mid
    transition.
 
 That is not to say the `transition` field is useless. Without it, the lights
