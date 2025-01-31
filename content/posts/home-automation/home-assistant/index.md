@@ -139,7 +139,7 @@ solve my problem for a couple of reasons:
 1. ~~Transitions max out at 5 minutes.~~ *Correction:* Turns out the 5 minute
    limit is only enforced in the UI. [Philips Hue lights have a max transition
    time of 65534 deciseconds, which you can apply directly with
-   YAML.](https://github.com/home-assistant/core/issues/2843).
+   YAML.](https://github.com/home-assistant/core/issues/2843)
 
 2. HA will report the final transition state on the UI when the lights are mid
    transition.
