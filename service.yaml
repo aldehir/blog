@@ -3,9 +3,6 @@ kind: Service
 metadata:
   name: service
 spec:
-  selector:
-    app.kubernetes.io/name: blog
-    app.kubernetes.io/instance: blog-production
   ports:
     - protocol: TCP
       port: 80
