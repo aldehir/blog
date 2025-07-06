@@ -9,7 +9,7 @@ spec:
     - web
     - websecure
   routes:
-    - match: Host(`alde.dev`) || Host(`alde.io`) || Host(`aldehir.com`)
+    - match: Host(`alde.dev`)
       kind: Rule
       services:
         - name: blog-service
@@ -17,5 +17,24 @@ spec:
       middlewares:
         - name: redirect-to-https
           namespace: traefik-system
+
+    - match: Host(`alde.io`)
+      kind: Rule
+      services:
+        - name: blog-service
+          port: 80
+      middlewares:
+        - name: redirect-to-https
+          namespace: traefik-system
+
+    - match: Host(`aldehir.com`)
+      kind: Rule
+      services:
+        - name: blog-service
+          port: 80
+      middlewares:
+        - name: redirect-to-https
+          namespace: traefik-system
+
   tls:
     secretName: blog-tls
