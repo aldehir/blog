@@ -1,0 +1,24 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - deployment.yaml
+  - service.yaml
+  - ingressroute.yaml
+
+labels:
+  - pairs:
+      app.kubernetes.io/name: blog
+      app.kubernetes.io/instance: blog-production
+      app.kubernetes.io/version: latest
+      app.kubernetes.io/component: frontend
+      app.kubernetes.io/managed-by: kustomize
+    includeSelectors: true
+    includeTemplates: true
+
+namePrefix: blog-
+
+images:
+  - name: blog-image
+    newName: ghcr.io/aldehir/blog
+    newTag: latest

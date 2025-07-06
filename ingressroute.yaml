@@ -1,0 +1,18 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: ingressroute
+  annotations:
+    external-dns.alpha.kubernetes.io/target: traefik.k8s.alde.dev
+spec:
+  entryPoints:
+    - web
+    - websecure
+  routes:
+  - match: Host(`blog.test.alde.dev`)
+    kind: Rule
+    services:
+    - name: blog-service
+      port: 80
+  tls:
+    certResolver: letsencrypt
