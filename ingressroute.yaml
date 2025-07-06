@@ -16,6 +16,6 @@ spec:
           port: 80
       middlewares:
         - name: redirect-to-https
-          namesapce: traefik-system
+          namespace: traefik-system
   tls:
     secretName: blog-tls
