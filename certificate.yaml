@@ -6,6 +6,8 @@ spec:
   secretName: blog-tls
   dnsNames:
     - alde.dev
+    - alde.io
+    - aldehir.com
   issuerRef:
     name: cluster-acme-issuer
     kind: ClusterIssuer
