@@ -9,10 +9,13 @@ spec:
     - web
     - websecure
   routes:
-  - match: Host(`blog.test.alde.dev`)
-    kind: Rule
-    services:
-    - name: blog-service
-      port: 80
+    - match: Host(`blog.test.alde.dev`)
+      kind: Rule
+      services:
+        - name: blog-service
+          port: 80
+      middlewares:
+        - name: redirect-to-https
+          namesapce: traefik-system
   tls:
     certResolver: letsencrypt
