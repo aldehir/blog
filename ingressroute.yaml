@@ -9,7 +9,7 @@ spec:
     - web
     - websecure
   routes:
-    - match: Host(`blog.test.alde.dev`)
+    - match: Host(`alde.dev`) || Host(`alde.io`) || Host(`aldehir.com`)
       kind: Rule
       services:
         - name: blog-service
@@ -18,4 +18,4 @@ spec:
         - name: redirect-to-https
           namesapce: traefik-system
   tls:
-    certResolver: letsencrypt
+    secretName: blog-tls
