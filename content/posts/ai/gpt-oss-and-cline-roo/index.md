@@ -64,9 +64,9 @@ Here is a complete example:
 
 ## How does it work?
 
-The grammar forces the model to output to its `final` channel, which is the
-output sent to the user. In native tool calls, it generates the output in the
-`commentary` channel. So it will never generate a native tool call, and instead
+In native tool calls, it generates the output in the `commentary` channel. The
+grammar forces the model to output to its `final` channel, which is the output
+sent to the user. So it will never generate a native tool call, and instead
 coerces it to produce a message that (hopefully) contains the tool call
 notation that Cline expects.
 
