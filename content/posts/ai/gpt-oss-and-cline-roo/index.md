@@ -42,7 +42,7 @@ simple grammar file, you can coerce the model to respond properly:
 
 ## Instructions
 
-Create a file called `cline.gbnf` and place these contents:
+Create a file called `cline.gbnf` and paste these contents:
 
 ```text
 root ::= analysis? start final .+
