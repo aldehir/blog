@@ -69,3 +69,7 @@ output sent to the user. In native tool calls, it generates the output in the
 `commentary` channel. So it will never generate a native tool call, and instead
 coerces it to produce a message that (hopefully) contains the tool call
 notation that Cline expects.
+
+
+*Note: This is a copy of my redit post here:
+https://www.reddit.com/r/CLine/comments/1mtcj2v/making_gptoss_20b_and_cline_work_together/*
