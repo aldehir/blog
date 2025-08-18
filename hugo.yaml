@@ -3,7 +3,6 @@ baseURL: "https://alde.dev/"
 languageCode: en-us
 title: Alde's Blog
 theme: hello-friend-ng
-paginate: 10
 
 params:
   dateform: Jan 2, 2006
@@ -45,3 +44,6 @@ menus:
     - identifier: "blog"
       name: "Blog"
       url: "/"
+
+pagination:
+  pagerSize: 10
