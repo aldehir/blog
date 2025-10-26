@@ -58,7 +58,7 @@ calls. The bottom bar charts show the number of trials that successfully
 completed the task. If there is a better metric to use, I am happy to add that
 in as well, but I think this does a good job of illustrating the problem.
 
-![gpt-oss tool calling results n=25 (llama.cpp)](results.png)
+[![gpt-oss tool calling results n=25 (llama.cpp)](results.png)](results.png)
 
 By increasing the number of cities in the prompt, we increase the number of
 turns. Without passing along the CoT, performance starts to degrade the more
